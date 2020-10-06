@@ -12,7 +12,7 @@ Script to control audio players like: audacious, mocp. mpris-remote compliant au
     play, playpause, pause, stop, next, previous, info
   
 # Requirements
-notify-send.sh from https://github.com/vlevit/notify-send.sh
+notify-send.sh from https://github.com/vlevit/notify-send.sh and
 mpris-remote from https://github.com/mackstann/mpris-remote
 
 # Installation
