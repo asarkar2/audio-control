@@ -1,10 +1,10 @@
 # audio-control
 Script to control audio players like: audacious, mocp. mpris-remote compliant audio players are also supported.
 
-## Author: Anjishnu Sarkar
 ## Usage: 
     audio-control.sh [options]
-
+    
+    Author: Anjishnu Sarkar
     Options:
     -h|--help             Show this help and exit.
     -a|--action <action>  Act on the active player.
