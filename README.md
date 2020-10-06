@@ -19,15 +19,21 @@ mpris-remote from https://github.com/mackstann/mpris-remote
 
     mkdir -p ~/bin/
 
+    # Install notify-send.sh
     sudo apt-get install bash libglib2.0-bin
     git clone https://github.com/vlevit/notify-send.sh.git
     cd notify-send.sh
     cp notify-action.sh ~/bin/
     cp notify-send.sh ~/bin/
 
+    # Install mpris-remote
     sudo apt install python-dbus
     git clone git://github.com/mackstann/mpris-remote.git
     cd mpris-remote
     cp mpris-remote ~/bin/
 
     # Download and copy the current script audio-control.sh to ~/bin/
+    git clone https://github.com/asarkar2/audio-control.git
+    cd audio-control/
+    cp audio-control.sh ~/bin/
+    
